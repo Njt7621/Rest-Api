@@ -1,0 +1,9 @@
+DROP TABLE IF EXISTS movies;
+
+CREATE TABLE movies(
+  id INTEGER PRIMARY KEY,
+  imdbid varchar(10) NOT NULL,
+  rating INTEGER NOT NULL,
+  title TEXT NOT NULL,
+  year INTEGER NOT NULL
+);
